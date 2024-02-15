@@ -36,6 +36,7 @@ body {
 }
 
 #livrinho-cdj a {
+  font-size: 0.7em;
   color: #fff;
 }
 
@@ -43,7 +44,7 @@ body {
 #ano-2022 {
   background-image: url("2023.jpg");
   background-size: 40%;
-  border-style: solid;
+  border-style: dotted;
   border-width: 0 0 5px 0;
 }
 
