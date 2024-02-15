@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&family=Sixtyfour&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Protest Strike", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-weight: 400;
+}
+
+#livrinho-cdj {
+  z-index: 2;
+  width: 200px;
+  top: 0;
+  text-align: center;
+  position: fixed;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0 0 10px 0;
+}
+
+#livrinho-cdj h1 {
+  font-size: 1.2em;
+  font-family: "Sixtyfour", sans-serif;
+}
+
+#ano-2023,
+#ano-2024 {
+  margin-top: 45vh;
+}
+
+#ano-2023 > div,
+#ano-2022 > div {
+  margin-bottom: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ano-2023 h1,
+#ano-2022 h1 {
+  width: 90px;
+  z-index: 1;
+  position: sticky;
+  bottom: 0;
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 0 10px 0 0;
+}
+
+#ano-2023 > div > *,
+#ano-2022 > div > * {
+  margin: 5px;
+  text-align: center;
+}
+
+#ano-2023 > div > h2,
+#ano-2023 > div > small,
+#ano-2022 > div > h2,
+#ano-2022 > div > small {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #ano-2023 > div > h2,
+  #ano-2023 > div > small,
+  #ano-2022 > div > h2,
+  #ano-2022 > div > small {
+    width: 85%;
+  }
+}
